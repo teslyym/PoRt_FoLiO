@@ -30,7 +30,9 @@ const Home = () => {
             </div>
             <div className="p-5 gap-4">
               <Link to={"/"}>
-                <h1 className=" font-poppins font-bold text-[2rem] ">Teslim</h1>
+                <h1 className=" font-poppins font-bold text-[2rem] transition duration-75 ease-out text-[#111]">
+                  Teslim
+                </h1>
                 <h2 className="font-poppins font-bold text-[1rem]">
                   Software Engineer
                 </h2>
@@ -47,7 +49,7 @@ const Home = () => {
               </h1>
 
               <div className="mt-4">
-                <button className="border-2 border-[#333] border-solid text-[#000] shadow-none px-6 py-1 transition-all duration-300 hover:bg-[#000], font-[1em], bg-[grey]">
+                <button className="border-2 border-[#333] border-solid text-[#000] shadow-none px-6 py-1 transition-all duration-300 hover:bg-[#000], font-[1em], bg-[#d5d5d5]">
                   <a
                     className=" font-poppins"
                     href="mailto:steslimolayiwola@gmail.com"
@@ -56,6 +58,28 @@ const Home = () => {
                   </a>
                 </button>
               </div>
+            </div>
+            <div className="pt-[10rem] flex gap-10">
+              <Link>
+                <p className=" flex font-roboto w-[80px] justify-center font-light mr-4 p-[5px]   border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
+                  About Me
+                </p>
+              </Link>
+              <Link>
+                <p className="- flex font-roboto w-[80px] justify-center  font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
+                  Skills
+                </p>
+              </Link>
+              <Link>
+                <p className=" flex font-roboto w-[80px] justify-center font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
+                  Projects
+                </p>
+              </Link>
+              <Link>
+                <p className=" flex font-roboto w-[80px] justify-center  font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
+                  Links
+                </p>
+              </Link>
             </div>
           </div>
         )}
