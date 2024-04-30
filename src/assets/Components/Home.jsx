@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Loader from "./Loader/Loader";
 import { Link } from "react-router-dom";
 import CustomButton from "./Buttons/CustomButton";
@@ -12,6 +12,12 @@ const Home = () => {
     }, 6000);
     return () => clearTimeout(timer);
   }, []);
+
+  const sectionRef = useRef(null);
+
+  const scrollToSection = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div className="">
@@ -60,26 +66,38 @@ const Home = () => {
               </div>
             </div>
             <div className="pt-[10rem] flex gap-10">
-              <Link>
-                <p className=" flex font-roboto w-[80px] justify-center font-light mr-4 p-[5px]   border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
-                  About Me
-                </p>
-              </Link>
-              <Link>
-                <p className="- flex font-roboto w-[80px] justify-center  font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
-                  Skills
-                </p>
-              </Link>
-              <Link>
-                <p className=" flex font-roboto w-[80px] justify-center font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
-                  Projects
-                </p>
-              </Link>
-              <Link>
-                <p className=" flex font-roboto w-[80px] justify-center  font-light mr-4 p-[5px]  border-[3px] border-[#ccc] shadow-xl shadow-[gray] whitespace-nowrap">
-                  Links
-                </p>
-              </Link>
+              <button onClick={scrollToSection}>
+                <Link>
+                  <p className=" flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
+                    About Me
+                  </p>
+                </Link>
+              </button>
+
+              <button>
+                <Link>
+                  <p className="flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
+                    Skills
+                  </p>
+                </Link>
+              </button>
+
+              <button>
+                {" "}
+                <Link>
+                  <p className=" flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
+                    Projects
+                  </p>
+                </Link>
+              </button>
+              <button>
+                {" "}
+                <Link>
+                  <p className=" font flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
+                    Links
+                  </p>
+                </Link>
+              </button>
             </div>
           </div>
         )}
