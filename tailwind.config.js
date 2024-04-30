@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      poppins: ["poppins", "system-ui"],
+      roboto: ["roboto-mono", "system-ui"],
+      nunito: ["nunito", "system-ui"],
+    },
     extend: {},
   },
   plugins: [],
