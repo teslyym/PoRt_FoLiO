@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Loader from "./Loader/Loader";
 import { Link } from "react-router-dom";
 import CustomButton from "./Buttons/CustomButton";
+import Background from "./Background";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,15 +25,7 @@ const Home = () => {
               <Loader />
             ) : (
               <div className="items-center  max-w-[1000px] mx-auto justify-center">
-                <div className="fixed  m-auto text-[10rem] font-bold font-nunito opacity-5 top-0 left-[-2em] z-[-1000]">
-                  TESLIM
-                </div>
-                <div className="fixed pt-4  m-auto text-[27rem] font-bold font-nunito opacity-5 overflow-hidden bottom-[0em] right-[-1em] z-[-1000]">
-                  TESLIM
-                </div>
-                <div className="fixed inset-0 m-auto text-[2rem] font-bold font-nunito opacity-5 bottom-[0] left-0  z-[-1000]">
-                  TESLIM
-                </div>
+                <Background />
                 <div className="p-5 gap-4">
                   <Link to={"/"}>
                     <h1 className=" font-poppins font-bold text-[2rem] transition duration-75 ease-out text-[#111]">
@@ -44,7 +37,7 @@ const Home = () => {
                   </Link>
                 </div>
 
-                <div className="w-[450px] pt-[3rem] mb-[1rem]">
+                <div className="w-[450px] pt-[3rem] mb-[1rem] p-5 gap-4">
                   <h1 className="font-poppins text-[13px] font-normal">
                     I'm a Full Stack Web Developer from Nigeria. I'm passionate
                     about crafting smooth, visually appealing, and innovative
