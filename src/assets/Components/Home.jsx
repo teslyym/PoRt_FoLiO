@@ -3,6 +3,7 @@ import Loader from "./Loader/Loader";
 import { Link } from "react-router-dom";
 import CustomButton from "./Buttons/CustomButton";
 import Background from "./Background";
+import Navbar from "./Navbar";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,7 +47,7 @@ const Home = () => {
                     opportunities.
                   </h1>
 
-                  <div className="mt-4">
+                  <div className="mt-4 p-5 gap-4">
                     <button className="border-2 border-[#333] border-solid text-[#000] shadow-none px-6 py-1 transition-all duration-300 hover:bg-[#000], font-[1em], bg-[#d5d5d5]">
                       <a
                         className=" font-poppins"
@@ -57,6 +58,7 @@ const Home = () => {
                     </button>
                   </div>
                 </div>
+                <Navbar />
               </div>
             )}
           </div>

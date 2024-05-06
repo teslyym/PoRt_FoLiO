@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./Loader/Header";
 import Background from "./Background";
+import Navbar from "./Navbar";
 
 const About = () => {
   return (
     <div className="items-center  max-w-[1000px] mx-auto justify-center ">
       <div className="">
         <Header />
+
         <Background />
         <div className="w-[700px] pt-[2rem] mb-[1rem] p-5 gap-4">
           <h1 className="font-poppins font-bold leading-7 text--2xl">
@@ -23,8 +25,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="mt-4">
-        <button className="border-2 border-[#333] border-solid text-[#000] shadow-none px-6 py-1 transition-all duration-300 hover:bg-[#000], font-[1em], bg-[#d5d5d5]">
+      <div className="mt-4 p-5 gap-4">
+        <button className="border-2 border-[#333] border-solid text-[#000]  shadow-none px-6 py-1 transition-all duration-300 hover:bg-[#000], font-[1em], bg-[#d5d5d5]">
           <a className=" font-poppins" href="mailto:steslimolayiwola@gmail.com">
             Hire me
           </a>
