@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [page, setPage] = useState("home");
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -27,6 +28,7 @@ const Home = () => {
             ) : (
               <div className="items-center  max-w-[1000px] mx-auto justify-center">
                 <Background />
+
                 <div className="p-5 gap-4">
                   <Link to={"/"}>
                     <h1 className=" font-poppins font-bold text-[2rem] transition duration-75 ease-out text-[#111]">
@@ -36,6 +38,7 @@ const Home = () => {
                       Software Engineer
                     </h2>
                   </Link>
+                  {page !== "Home" && <Navbar className="" />}
                 </div>
 
                 <div className="w-[450px] pt-[3rem] mb-[1rem] p-5 gap-4">
@@ -58,7 +61,7 @@ const Home = () => {
                     </button>
                   </div>
                 </div>
-                <Navbar />
+                {page === "home" && <Navbar />}
               </div>
             )}
           </div>
