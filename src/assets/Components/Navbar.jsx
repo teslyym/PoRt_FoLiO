@@ -15,7 +15,7 @@ const Navbar = () => {
           </button>
 
           <button>
-            <Link>
+            <Link to={"/skills"}>
               <p className="flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
                 Skills
               </p>
