@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       poppins: ["poppins", "system-ui"],
-      roboto: ["roboto-mono", "system-ui"],
+      roboto: ["roboto+mono", "system-ui"],
       nunito: ["nunito", "system-ui"],
     },
     extend: {},
