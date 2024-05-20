@@ -190,6 +190,7 @@ const Skills = () => {
                 </svg>
                 <h1 className="font-roboto text-sm font-normal">JavaScript</h1>
                 <h1 className="font-roboto text-sm font-normal">JavaScript</h1>
+                <h1 className="font-roboto text-sm font-normal">JavaScript</h1>
               </div>
             </div>
           </div>
