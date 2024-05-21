@@ -12,7 +12,10 @@ const Links = () => {
           <p className="font-poppins font-bold text-xl">Links</p>
         </div>
         <div className="flex flex-wrap w-1/2 gap-5">
-          <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
+          <a
+            href="mailto:steslimolayiwola@gmail.com"
+            className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]"
+          >
             <div className="flex gap-6 items-center">
               <svg
                 className="w-[30px]"
@@ -39,9 +42,12 @@ const Links = () => {
               </svg>
               <p className="font-poppins font-bold text-[gray]">mail</p>
             </div>
-          </div>
+          </a>
           <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
-            <div className="flex gap-6 items-center">
+            <a
+              href="https://www.linkedin.com/in/salahudeen-teslim/"
+              className="flex gap-6 items-center"
+            >
               <svg className="w-[20px]" viewBox="0 0 128 128">
                 <path
                   fill="gray"
@@ -54,10 +60,13 @@ const Links = () => {
               </svg>
 
               <p className="font-poppins font-bold text-[gray]">linkedin</p>
-            </div>
+            </a>
           </div>
           <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
-            <div className="flex gap-6 items-center">
+            <a
+              href="https://github.com/teslyym"
+              className="flex gap-6 items-center"
+            >
               <svg className="w-[20px]" viewBox="0 0 128 128">
                 <g fill="gray">
                   <path
@@ -70,10 +79,13 @@ const Links = () => {
               </svg>
 
               <p className="font-poppins font-bold text-[gray]">github</p>
-            </div>
+            </a>
           </div>
           <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
-            <div className="flex gap-6 items-center">
+            <a
+              href="https://stackoverflow.com/users/25171408/salahudeen-teslim-olayiwola"
+              className="flex gap-6 items-center"
+            >
               <svg className="w-[20px]" viewBox="0 0 128 128">
                 <path
                   fill="gray"
@@ -88,10 +100,13 @@ const Links = () => {
               <p className="font-poppins font-bold text-[gray]">
                 stackoverflow
               </p>
-            </div>
+            </a>
           </div>
           <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
-            <div className="flex gap-6 items-center">
+            <a
+              href="https://www.facebook.com/tessy.salahudeenolayiwola/"
+              className="flex gap-6 items-center"
+            >
               <svg className="w-[20px]" viewBox="0 0 128 128">
                 <rect
                   fill="gray"
@@ -109,35 +124,22 @@ const Links = () => {
               </svg>
 
               <p className="font-poppins font-bold text-[gray]">facebook</p>
-            </div>
+            </a>
           </div>
           <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[200px]">
-            <div className="flex gap-6 items-center">
-              <svg
-                className="w-[30px]"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <path
-                    d="M4 18L9 12M20 18L15 12M3 8L10.225 12.8166C10.8665 13.2443 11.1872 13.4582 11.5339 13.5412C11.8403 13.6147 12.1597 13.6147 12.4661 13.5412C12.8128 13.4582 13.1335 13.2443 13.775 12.8166L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
-                    stroke="#c5c4c4"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></path>{" "}
-                </g>
+            <a
+              href="https://x.com/teslyym_"
+              className="flex gap-6 items-center"
+            >
+              <svg className="w-[20px]" viewBox="0 0 128 128">
+                <path
+                  d="M75.916 54.2 122.542 0h-11.05L71.008 47.06 38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303 89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086-39.42-56.386h16.972L65.19 53.824l4.954 7.086 41.353 59.15h-16.97L60.782 71.793Z"
+                  fill="gray"
+                ></path>
               </svg>
+
               <p className="font-poppins font-bold text-[gray]">twitter</p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
