@@ -24,7 +24,7 @@ const Navbar = () => {
 
           <button>
             {" "}
-            <Link>
+            <Link to={"/projects"}>
               <p className=" flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">
                 Projects
               </p>
