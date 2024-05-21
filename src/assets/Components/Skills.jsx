@@ -411,6 +411,18 @@ const Skills = () => {
               </div>
             </div>
             <div className=" bg-[gray] w-[1.5px]"></div>
+            <div>
+              <p className="font-poppins py-[10%] text-sm font-bold">
+                Human Languages
+              </p>
+              <div>
+                <div className=" items-center gap-2">
+                  <h1 className="font-roboto text-sm font-normal">English</h1>
+                  <h1 className="font-roboto text-sm font-normal">Arabic</h1>
+                  <h1 className="font-roboto text-sm font-normal">Yoruba</h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
