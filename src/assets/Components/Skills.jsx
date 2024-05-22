@@ -1,13 +1,18 @@
 import React from "react";
 import Header from "./Loader/Header";
 import Background from "./Background";
+import Navbar from "./Navbar";
 
 const Skills = () => {
   return (
     <div className="items-center  max-w-[1000px] mx-auto justify-center">
       <div>
-        <Header />
+        <div className="flex items-center">
+          <Header />
+          <Navbar />
+        </div>
         <Background />
+
         <div className=" pt-[2rem] mb-[1rem] p-5 gap-4">
           <h1 className="font-poppins font-bold text-2xl">Skills</h1>
 

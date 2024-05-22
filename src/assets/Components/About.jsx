@@ -16,7 +16,7 @@ const About = () => {
           </h1>
           <p className="font-poppins text-[13px] font-normal leading-6 text-base pt-[3%]">
             I'm a Full Stack Web Developer based in Nigeria, with a deep passion
-            for crafting seamless, beautiful, and innovative websites. I have a
+            for crafting seamless, beautiful, and innovative web apps. I have a
             strong foundation in various programming languages, especially web
             technologies. Continuous learning drives me, making my work more
             rigorous. I write code because I love turning the impossible into
