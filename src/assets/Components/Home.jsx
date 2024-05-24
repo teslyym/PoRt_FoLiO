@@ -38,7 +38,7 @@ const Home = () => {
                       Software Engineer
                     </h2>
                   </Link>
-                  {page !== "Home" && <Navbar className="" />}
+                  {/* {page !== "Home" && <Navbar className="" />} */}
                 </div>
 
                 <div className="w-[450px] pt-[3rem] mb-[1rem] p-5 gap-4">
