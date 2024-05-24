@@ -3,7 +3,8 @@ import Header from "./Loader/Header";
 import Background from "./Background";
 import Apple from "../../assets/Apple.png";
 import FaithFund from "../../assets/FaithFund.png";
-import Diginote from 
+import Diginote from "../../assets/Diginote.png";
+import Portfolio from "../../assets/Portfolio.png";
 
 const Projects = () => {
   return (
@@ -90,7 +91,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="w-[50%]">
-                <img className="" src={FaithFund} alt="" />
+                <img className="" src={Diginote} alt="" />
               </div>
             </div>
           </div>
@@ -118,7 +119,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="w-[50%]">
-                <img className="" src={FaithFund} alt="" />
+                <img className="" src={Portfolio} alt="" />
               </div>
             </div>
           </div>
