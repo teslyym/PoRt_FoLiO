@@ -61,7 +61,7 @@ const Home = () => {
                     </button>
                   </div>
                 </div>
-                {page === "home" && <Navbar />}
+                <div className="pt-12">{page === "home" && <Navbar />}</div>
               </div>
             )}
           </div>
