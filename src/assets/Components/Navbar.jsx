@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <div>
-        <div className="pt-[10rem] flex gap-10">
+        <div className=" flex gap-10">
           <button>
             <Link to={"/about"} handleClick={() => setPageSteps("about")}>
               <p className=" flex font-roboto w-[100px] justify-center font-light p-[5px]   border-[3px] border-[#ccc] shadow-sm shadow-[gray] whitespace-nowrap">

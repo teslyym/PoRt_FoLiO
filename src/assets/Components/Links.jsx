@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "./Loader/Header";
 import Background from "./Background";
+import Navbar from "./Navbar";
 
 const Links = () => {
   return (
     <div className="items-center  max-w-[1000px] mx-auto justify-center">
       <div>
-        <Header />
+        <div className="flex justify-between items-center">
+          <Header />
+          <Navbar />
+        </div>
         <Background />
         <div>
           <p className="font-poppins font-bold text-xl">Links</p>

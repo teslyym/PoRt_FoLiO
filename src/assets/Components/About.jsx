@@ -7,8 +7,10 @@ const About = () => {
   return (
     <div className="items-center  max-w-[1000px] mx-auto justify-center ">
       <div className="">
-        <Header />
-
+        <div className="flex justify-between items-center">
+          <Header />
+          <Navbar />
+        </div>
         <Background />
         <div className="w-[700px] pt-[2rem] mb-[1rem] p-5 gap-4">
           <h1 className="font-poppins font-bold leading-7 text--2xl">

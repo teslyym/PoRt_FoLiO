@@ -5,12 +5,16 @@ import Apple from "../../assets/Apple.png";
 import FaithFund from "../../assets/FaithFund.png";
 import Diginote from "../../assets/Diginote.png";
 import Portfolio from "../../assets/Portfolio.png";
+import Navbar from "./Navbar";
 
 const Projects = () => {
   return (
     <div className="items-center  max-w-[1000px] mx-auto justify-center">
       <div>
-        <Header />
+        <div className="flex justify-between items-center">
+          <Header />
+          <Navbar />
+        </div>
         <Background />
         <div className="flex mt-[2rem] gap-5 border-[2px] table--shadow border-solid justify-around w-[500px]">
           <div>
