@@ -26,7 +26,7 @@ const Home = () => {
             {isLoading ? (
               <Loader />
             ) : (
-              <div className="items-center  max-w-[1000px] mx-auto justify-center">
+              <div className="items-center  max-w-[1000px] mx-auto justify-center ">
                 <Background />
 
                 <div className="p-5 gap-4">
